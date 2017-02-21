@@ -16,9 +16,7 @@ def decode_image(file_location="images/encoded_sample.png"):
     decoded_image = Image.new("RGB", encoded_image.size)
     pixels = decoded_image.load()
 
-    for i in range(x_size):
-        for j in range(y_size):
-            pass #TODO: Fill in decoding functionality
+    pass #TODO: Fill in decoding functionality
 
     decoded_image.save("images/decoded_image.png")
 
